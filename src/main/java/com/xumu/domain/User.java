@@ -7,10 +7,7 @@ import lombok.NoArgsConstructor;
 import java.io.Serializable;
 import java.util.Date;
 
-/**
- * @author 黑马程序员
- * @Company http://www.ithiema.com
- */
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

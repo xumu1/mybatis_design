@@ -2,12 +2,10 @@ package com.xumu.test;
 
 import com.xumu.dao.IUserDao;
 import com.xumu.domain.User;
-import com.xumu.mybatis.cfg.Mapper;
 import com.xumu.mybatis.io.Resources;
 import com.xumu.mybatis.sqlsession.SqlSession;
 import com.xumu.mybatis.sqlsession.SqlSessionFactory;
 import com.xumu.mybatis.sqlsession.SqlSessionFactoryBuilder;
-import org.junit.Test;
 
 import java.io.InputStream;
 import java.util.List;

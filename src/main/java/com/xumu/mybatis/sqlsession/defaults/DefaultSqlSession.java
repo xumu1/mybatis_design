@@ -10,6 +10,9 @@ import lombok.Data;
 import java.lang.reflect.Proxy;
 import java.sql.Connection;
 
+/**
+ * @author xumu
+ */
 @Data
 public class DefaultSqlSession implements SqlSession {
 

@@ -36,7 +36,6 @@ public class MapperProxy implements InvocationHandler {
             throw new IllegalArgumentException("传入参数有误");
         }
         // 调用工具类查询所有
-
         return new Executor().selectList(mapper,connection);
     }
 }
